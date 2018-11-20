@@ -1,0 +1,21 @@
+.project {
+    height: 20px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.project__name {
+    display: block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.project_display-none {
+    display: none;
+}
+
+.project_hover:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+}

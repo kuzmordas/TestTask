@@ -1,0 +1,44 @@
+.profile-card {
+    width: 55rem;
+    height: auto;
+    display: flex;
+    background-color: white;
+}
+
+.profile-card__photo {
+    margin: 25px 0 25px 25px;
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: gray;
+}
+
+.profile-card__info {
+    margin: 50px 30px 30px 30px;
+    flex-grow: 1;
+}
+
+.profile-card__user-name {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;   
+}
+
+.profile-card__user-job {
+    margin: 0 0 10px 0;
+    font-size: 1.0rem;
+    color: gray;
+}
+
+.profile-card__projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-card__project {
+    margin: 0 10px 10px 0;
+    border: 1px solid #e6e6e6;
+    padding: 0;
+    background-color: whitesmoke;
+}
